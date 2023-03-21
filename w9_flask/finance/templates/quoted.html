@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <div class="card container_quoted">
+        <h3 class="text-center">Quoted</h1>
+        <h6>Name: {{ name }}</h3>
+        <h6>Price: {{ price | usd }}</h3>
+        <h6>Symbol: {{ symbol }}</h3>
+    </div>
+{% endblock %}

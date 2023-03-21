@@ -1,0 +1,46 @@
+In order to determine which sorting algorithms belongs to each sort programs, we need to identify what are the definition for each sorting algorithms
+1. Selection Sort
+- Repeatedly looking for the smallest number
+- Big O = n^2
+- Big Omega = n^2
+- Theta = n^2
+
+2. Bubble Sort
+- Compares two values and swap when the numbers are out of orders
+- Big O = n^2
+- Big Omega = n
+
+3. Merge Sort
+- Dividing data to left half and right half, sorting each of those halves, and finally merging the halves together
+- Big O = (n log n)
+- Big Omega = (n log n)
+- Theta = (n log n)
+
+Conclusion drawn:
+1. For unsorted array, performance from best to worst
+    = Merge Sort > Bubble Sort = Selection Sort
+2. For sorted array, performance from best to worst
+    = Bubble Sort > Merge Sort > Selection Sort
+
+Time taken for program to run:
+1. For unsorted array,
+Sort 1 = 7.298s
+Sort 2 = 0.380s (Merge Sort)
+Sort 3 = 2.894s
+
+2. For sorted array,
+Sort 1 = 0.244s (Bubble Sort)
+Sort 2 = 0.392s (Merge Sort)
+Sort 3 = 2.986s (Selection Sort)
+
+sort1 uses: Bubble Sort
+
+How do you know?: It ran the fastest on a sorted array
+
+sort2 uses: Merge Sort
+
+How do you know?: It ran the fastest on an unsorted array
+
+sort3 uses: Selection Sort
+
+How do you know?: It is the only option left (Considering it's not Bubble Sort/ Merge Sort)

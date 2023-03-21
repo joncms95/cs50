@@ -1,0 +1,21 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+
+<<ANSWER>>
+Suppose Spotify determines an audio aura by looking at the average energy, valence, and danceability of a person’s top 100 songs from the past year,
+Their average numbers will be as follows:
+AVG ENERGY      : 0.65906
+AVG VALENCE     : 0.484443
+AVG DANCEABILITY: 0.71646
+Based on the above data, we can deduce that the audio aura of the listener is somewhat
+lively, energentic, and passionate
+as the energy and danceability levels are pretty high.
+
+
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+
+<ANSWER>>
+The calculation I made for this aura might not be very representative of the listeners as there are other different factors that determines the audio aura of a person.
+In some cases, a person may only listen to a few songs repeatedly throughout the year. Perhaps when we are extracting data from the top 100 songs of the listener, we may need to consider the
+frequency a song has been played by the person as well.
+If a song has been played more time, the weightage of the data derived from that song itself should be much higher,
+as compared to a song that has been only played a few time in the year.
