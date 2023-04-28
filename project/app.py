@@ -39,8 +39,8 @@ def links():
 
     mongo.db.drafts.insert_one(
         {
-            "createdAt": datetime.datetime.utcnow(),
             "_id": draft_id,
+            "createdAt": datetime.datetime.utcnow(),
             "blue_auth_id": blue_auth_id,
             "red_auth_id": red_auth_id,
             "blue_ready": False,
