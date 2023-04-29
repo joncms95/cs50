@@ -1,5 +1,5 @@
 # CS50 Final Project : Ban Pick Tool 📃
-### Video Demo: https://www.youtube.com 🎞️
+### Video Demo: https://youtu.be/_yb5bsZI1Gk 🎞️
 ### Description
 The following is my final project created for the HarvardX CS50's Introduction to Computer Science.
 
