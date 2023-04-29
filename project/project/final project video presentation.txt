@@ -1,0 +1,17 @@
+Hello, I'm Jonathan from Malaysia.
+
+For my final project in CS50, I created a ban pick tool for a game called Mobile Legends. I was inspired by drafting tools for League of Legends, such as prodraft, draftlol, and pentaq. However, instead of creating a drafting simulation for LoL, I decided to focus on Mobile Legends since such websites are not available, and the game is very popular in Southeast Asia.
+
+My ban pick tool is built with Python, and I use Flask to run the app. The app uses vanilla JavaScript, HTML, and CSS for the front-end.
+
+Currently, the website is hosted on a Digital Ocean server and is run using Gunicorn and Nginx. I purchased a cheap domain name from GoDaddy, and if you visit draftmlbb.xyz, you can see the create page of the app.
+
+On the create page, there are two input fields, blue team and red team, where users can enter their custom team names, OR they can click on the create button to apply default values for Team 1 and Team 2 for the blue team and red team variables. After clicking on the create button, users are directed to the links page, where three different links will be generated. Each draft will have the same UUID, whereas the blue team and red team will have their own specific auth ID. The different auth IDs are assigned to each link to give them their own authority to perform certain functions.
+
+The spectator link will not show anything underneath the picked champions, which is in this area, while the blue team can only select and ban or pick heroes when it's their turn, and vice versa for the red team. There is also a filter function and a search field where users can search for heroes by name.
+
+After the whole ban pick process is done, the webpage will show all the picked heroes.
+
+And that's my ban pick tool webpage and my final project for CS50.
+
+This was CS50!
