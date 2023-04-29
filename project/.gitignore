@@ -36,3 +36,6 @@ pip-delete-this-directory.txt
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# Project Video
+project/
